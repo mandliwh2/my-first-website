@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+ 
+body{
+    margin: 0px auto;
+}
+header.header img {
+    width: 180px;
+}
+section.top-page {
+    background: url("images/bg.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    list-style: none;
+    width: 400px;
+}
+
+nav.nav li{
+    color: white;
+    
+}
+
+
+
+h1.big-title{
+    color: white;
+    font-size: 80px;
+    margin-left: 75px;
+}
+
+div.scroll-down {
+    color: white;
+    display: flex;
+    margin-left: 75px;
+    width: 300px;
+}
+
+.gg-arrow-down-o{
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.scroll-down{
+    padding: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+.services div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.services i {
+    color: green;
+    padding: 20px 20px;
+}
+
+.section-title{
+    font-size: 64px;
+    position: relative;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 10px;
+    bottom: 0;
+    margin-left: 5px;
+    background-color: lightgreen;
+}
